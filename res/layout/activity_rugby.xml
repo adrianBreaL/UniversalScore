@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match">
+    <LinearLayout
+        android:id="@+id/soccer"
+        android:orientation="vertical"
+        style="@style/match">
+        <LinearLayout
+            style="@style/layout">
+            <LinearLayout
+                style="@style/teams">
+                <EditText
+                    style="@style/heads"
+                    android:id="@+id/editA"
+                    android:hint="@string/teamA"
+                    android:textSize="30sp"/>
+                <TextView
+                    style="@style/heads"
+                    android:id="@+id/teama"
+                    android:text="@string/cero"
+                    android:textSize="80sp"/>
+
+                <Button
+                    style="@style/bas"
+                    android:id="@+id/pts_5a"
+                    android:text="@string/tryr"
+                    android:onClick="pointToScoreA" />
+                <Button
+                    style="@style/bas"
+                    android:id="@+id/pts_3a"
+                    android:text="@string/ruggoal"
+                    android:onClick="pointToScoreA" />
+                <Button
+                    style="@style/bas"
+                    android:id="@+id/pts_2a"
+                    android:textSize="20sp"
+                    android:text="Conversion"
+                    android:onClick="pointToScoreA" />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/mBar" />
+            <LinearLayout
+                style="@style/teams">
+                <EditText
+                    style="@style/heads"
+                    android:id="@+id/editB"
+                    android:hint="@string/teamb"
+                    android:textSize="30sp"/>
+
+                <TextView
+                    style="@style/heads"
+                    android:id="@+id/teamb"
+                    android:text="@string/cero"
+                    android:textSize="80sp" />
+
+                <Button
+                    style="@style/bas"
+                    android:id="@+id/pts_5b"
+                    android:text="@string/tryr"
+                    android:onClick="pointToScoreB" />
+                <Button
+                    style="@style/bas"
+                    android:id="@+id/pts_3b"
+                    android:text="@string/ruggoal"
+                    android:onClick="pointToScoreB" />
+                <Button
+                    style="@style/bas"
+                    android:id="@+id/pts_2b"
+                    android:textSize="20sp"
+                    android:text="Conversion"
+                    android:onClick="pointToScoreB" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            style="@style/button"
+            android:id="@+id/reset"
+            android:text="@string/reset"
+            android:layout_marginTop="5dp"
+            android:onClick="reset"/>
+    </LinearLayout>
+</ScrollView>

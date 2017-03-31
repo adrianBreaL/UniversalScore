@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="68dp">
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="16dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/sport_image"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        style="@style/pic"
+        android:layout_toRightOf="@id/sport_image"
+        android:id="@+id/sport_name"
+        android:text="@string/soccer" />
+    <ImageView
+        style="@style/arrow"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_play_arrow_black_24dp"/>
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<resources>
+    <!--App Name-->
+    <string name="app_name" translatable="false">Universal Score</string>
+    <!--Title-->
+    <string name="title" translatable="false">Select Your Sport</string>
+
+    <!--Sport List-->
+    <string name="soccer" translatable="false">Soccer</string>
+    <string name="hand" translatable="false">Handball</string>
+    <string name="volley" translatable="false">Volleyball</string>
+    <string name="water" translatable="false">Waterpolo</string>
+    <string name="basket" translatable="false">Basketball</string>
+    <string name="tenis" translatable="false">Tennis</string>
+    <string name="base" translatable="false">Baseball</string>
+    <string name="badminton" translatable="false">Badminton</string>
+    <string name="rugby" translatable="false">Rugby</string>
+    <string name="futbol" translatable="false">Football</string>
+    <string name="game_record" translatable="false">Game Record</string>
+
+
+    <!--Game-->
+    <string name="reset" translatable="false">New Game!</string>
+    <string name="teamA" translatable="false">Team A</string>
+    <string name="teamb" translatable="false">Team B</string>
+    <string name="cero" translatable="false">0</string>
+    <string name="tset" translatable="false">-</string>
+    <string name="goal" translatable="false">+1 Goal</string>
+    <string name="vpoint" translatable="false">+1 Point</string>
+    <string name="free" translatable="false">Free Throw</string>
+    <string name="basket2" translatable="false">+2 Points</string>
+    <string name="triple" translatable="false">+3 Points</string>
+    <string name="tryr" translatable="false">Try</string>
+    <string name="ruggoal" translatable="false">Goal</string>
+    <string name="con" translatable="false">Conversion\n-\nSafety</string>
+    <string name="touchdown" translatable="false">TouchDown</string>
+    <string name="fieldgoal" translatable="false">Field Goal</string>
+    <string name="extra" translatable="false">Extra Point</string>
+    <string name="tpoint" translatable="false">Point</string>
+    <string name="adv" translatable="false">A</string>
+
+    <!--Menu-->
+    <string name="share" translatable="false">Share</string>
+    <string name="list" translatable="false">Records</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="delete" translatable="false">Delete</string>
+
+    <!--Empty View-->
+    <string name="empty_view_title_text" translatable="false">No games recorded yet...</string>
+    <string name="empty_view_subtitle_text" translatable="false">Get started by selecting a sport!</string>
+
+    <!--Toast-->
+    <string name="toast_record_list" translatable="false">Opening Game Records</string>
+    <string name="toast_save">Score saved!</string>
+    <string name="toast_error">Error saving score...</string>
+
+    <!--AlertDialog-->
+    <string name="unsaved_changes_dialog_msg">Score is not be saved!</string>
+    <string name="discard">QUIT</string>
+    <string name="keep_editing">CANCEL</string>
+    <string name="delete_dialog_msg">Delete this score?</string>
+</resources>

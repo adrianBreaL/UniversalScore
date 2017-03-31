@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match">
+    <LinearLayout
+        android:id="@+id/soccer"
+        android:orientation="vertical"
+        style="@style/match">
+        <LinearLayout
+            style="@style/layout">
+            <LinearLayout
+                style="@style/teams">
+                <EditText
+                    style="@style/heads"
+                    android:id="@+id/editA"
+                    android:hint="@string/teamA"
+                    android:textSize="30sp" />
+
+                <TextView
+                    style="@style/heads"
+                    android:id="@+id/teama"
+                    android:text="@string/cero"
+                    android:textSize="80sp" />
+
+                <Button
+                    style="@style/bas"
+                    android:id="@+id/pts_6a"
+                    android:text="@string/touchdown"
+                    android:textSize="20sp"
+                    android:onClick="pointToScoreA" />
+                <Button
+                    style="@style/bas"
+                    android:id="@+id/pts_3a"
+                    android:textSize="20sp"
+                    android:text="@string/fieldgoal"
+                    android:onClick="pointToScoreA" />
+                <Button
+                    style="@style/bas"
+                    android:id="@+id/pts_2a"
+                    android:textSize="15sp"
+                    android:text="@string/con"
+                    android:onClick="pointToScoreA" />
+                <Button
+                    style="@style/bas"
+                    android:textSize="20sp"
+                    android:text="@string/extra"
+                    android:onClick="pointToScoreA" />
+            </LinearLayout>
+            <LinearLayout
+                style="@style/mBar" />
+            <LinearLayout
+                style="@style/teams">
+                <EditText
+                    style="@style/heads"
+                    android:hint="@string/teamb"
+                    android:id="@+id/editB"
+                    android:textSize="30sp"/>
+
+                <TextView
+                    style="@style/heads"
+                    android:id="@+id/teamb"
+                    android:text="@string/cero"
+                    android:textSize="80sp" />
+
+                <Button
+                    style="@style/bas"
+                    android:id="@+id/pts_6b"
+                    android:text="@string/touchdown"
+                    android:textSize="20sp"
+                    android:onClick="pointToScoreB" />
+                <Button
+                    style="@style/bas"
+                    android:id="@+id/pts_3b"
+                    android:textSize="20sp"
+                    android:text="@string/fieldgoal"
+                    android:onClick="pointToScoreB" />
+                <Button
+                    style="@style/bas"
+                    android:id="@+id/pts_2b"
+                    android:textSize="15sp"
+                    android:text="@string/con"
+                    android:onClick="pointToScoreB" />
+                <Button
+                    style="@style/bas"
+                    android:textSize="20sp"
+                    android:text="@string/extra"
+                    android:onClick="pointToScoreB" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            style="@style/button"
+            android:textSize="15sp"
+            android:id="@+id/reset"
+            android:text="@string/reset"
+            android:layout_marginTop="2dp"
+            android:onClick="reset"/>
+    </LinearLayout>
+</ScrollView>

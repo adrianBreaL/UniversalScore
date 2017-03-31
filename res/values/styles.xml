@@ -1,0 +1,140 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF5722</item>
+        <item name="colorPrimaryDark">#E64A19</item>
+        <item name="colorAccent">#FFC107</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="actionBarStyle">@style/AppBarStyle</item>
+    </style>
+    <!-- App bar style -->
+    <style name="AppBarStyle" parent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove the shadow below the app bar -->
+        <item name="elevation">0dp</item>
+    </style>
+    <!--MainActivity-->
+    <style name="main">
+        <item name="android:layout_height">120dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#FF5722</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="match_main">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <!--MainActivity: Item List-->
+    <!--MainActivity: Item picture-->
+    <style name="pic">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">88dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:drawablePadding">40dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <!--MainActivity: Item arrow-->
+    <style name="arrow">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <!--SportActivity: for non set sport-->
+    <!--SportActivity: Main Layout-->
+    <style name="match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/background</item>
+    </style>
+    <!--SportActivity: Reset Button for non set sports-->
+    <style name="button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">70dp</item>
+        <item name="android:layout_marginLeft">80dp</item>
+        <item name="android:layout_marginRight">80dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:padding">20dp</item>
+    </style>
+    <!--SportActivity: Reset Button for set sports-->
+    <style name="tbutton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <!--SportActivity: Linear layout style for simple score sports-->
+    <style name="layout">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!--SportActivity: Score layout-->
+    <style name="teams">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!--SportActivity: EditText and Score for Teams-->
+    <style name="heads">
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--SportActivity: Middle Bar-->
+    <style name="mBar">
+        <item name="android:layout_width">5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:background">@color/mBar</item>
+    </style>
+    <!--SportActivity: Points buttons-->
+    <style name="bas">
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <!--SportActivity: Set style-->
+    <style name="set">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <!--SportActivity: Set title-->
+    <style name="setheads">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Large</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+</resources>
